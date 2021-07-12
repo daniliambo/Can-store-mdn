@@ -1,0 +1,116 @@
+/* Typography */
+
+@font-face {
+  font-family: 'KoHo-Bold';
+  src: url(./fonts/KoHo-Bold.ttf);
+  font-family: 'KoHo-Light';
+  src: url(./fonts/KoHo-Light.ttf);
+}
+
+html {
+  font-family: 'Koho-Light', Helvetica, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+aside * {
+  font-family: 'Koho-Light', Helvetica, sans-serif;
+}
+
+/* Positioning */
+
+header {
+  text-align: center;
+  border: 5px solid pink;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  line-height: 0;
+}
+
+.inside {
+  display: flex;
+}
+
+main {
+  flex: 5 100px;
+  order: 1;
+  padding: 5px;
+  border: 5px solid pink;
+  border-left: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+aside {
+  flex: 1 50px;
+  box-sizing: border-box;
+  border: 5px solid pink;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+aside * {
+  box-sizing: border-box;
+  margin: 5px;
+  white-space: nowrap;
+}
+
+aside input {
+  width: 85px;
+}
+
+footer {
+  text-align: center;
+  border: 5px solid pink;
+  margin-top: 20px;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+section {
+  border: 5px solid pink;
+  margin: 5px;
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  flex: 1 200px;
+  max-width: calc(50% + 100px);
+}
+
+section h2 {
+  background-color: black;
+  color: yellow;
+  padding: 10px;
+  margin: 0;
+  font-size: 2rem;
+  text-align: right;
+  white-space: nowrap;
+}
+
+section p {
+  position: absolute;
+  right: 5%;
+  top: 60%;
+  font-size: 2rem;
+  line-height: 0;
+  color: yellow;
+  background-color: black;
+  width: 100px;
+  height: 100px ;
+  border-radius: 50%;
+  margin: 0;
+  text-align: center;
+  line-height: 6rem;
+  box-shadow: 2.5px 2.5px 1px yellow;
+}
+
+.vegetables h2{
+  background-image: url(/icons/vegetable.png);
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
