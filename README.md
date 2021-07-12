@@ -1,2 +1,3 @@
-# Evil_circle
-The evil circle game
+# Can-store-mdn
+
+My remake of Can-store-exercise (MDN)
